@@ -9,7 +9,7 @@ app = FastAPI()
 
 @app.post("/github/professional")
 def professional():
-    subprocess.run(['bash', ['professional.sh']])
+    subprocess.run(['bash', 'professional.sh'])
     return HTTPStatus(200)
 
 @app.post("/github/omnihook")
