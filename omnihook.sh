@@ -1,0 +1,2 @@
+cd ../omnihook
+git pull

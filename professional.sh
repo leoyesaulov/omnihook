@@ -1,0 +1,2 @@
+cd ../professional
+git pull
