@@ -1,6 +1,5 @@
 import subprocess
 from http import HTTPStatus
-import os
 from pydantic import BaseModel
 
 from fastapi import FastAPI
@@ -16,4 +15,3 @@ def professional():
 def omnihook():
     subprocess.run(['bash', ['omnihook.sh']])
     return HTTPStatus(200)
-
