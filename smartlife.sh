@@ -1,0 +1,2 @@
+cd ../smartlife
+git pull

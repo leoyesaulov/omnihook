@@ -15,3 +15,8 @@ def professional():
 def omnihook():
     subprocess.run(['bash', ['omnihook.sh']])
     return HTTPStatus(200)
+
+@app.post("/github/smartlife")
+def smartlife():
+    subprocess.run(['bash', ['smartlife.sh']])
+    return HTTPStatus(200)
