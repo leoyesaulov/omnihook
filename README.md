@@ -9,3 +9,5 @@ The purpose of this API is to be available for webhooks (such as from GitHub) to
 
 ## The plan: 
 - This service exposes an API. On an inbound request it calls appropriate functions via rpc
+
+Part of Omniserv
